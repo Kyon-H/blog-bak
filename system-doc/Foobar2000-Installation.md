@@ -6,6 +6,7 @@ date: 2024-12-24 20:51
 author: Kyon-H
 header-img: img/post-bg-2015.jpg
 tags:
+  - foobar2000
 ---
 ## Ubuntu安装Foobar2000
 

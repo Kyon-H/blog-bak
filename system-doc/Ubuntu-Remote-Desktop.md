@@ -6,6 +6,9 @@ date: 2024-12-12 19:06
 author: Kyon-H
 header-img: img/post-bg-2015.jpg
 tags:
+  - VNCServer
+  - 远程桌面
+  - Ubuntu
 ---
 ## 1. VNCServer远程桌面
 

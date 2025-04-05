@@ -6,6 +6,10 @@ date: 2025-04-02 23:00
 author: Kyon-H
 header-img: img/post-bg-2015.jpg
 tags:
+  - SSL证书
+  - Cloudflare
+  - acme
+  - dynv6
 ---
 ## 一、dynv6域名申请证书
 
