@@ -51,8 +51,6 @@ export DYNV6_TOKEN="rPSc75..."
 申请的证书位于`/user/acme/example/example.v6.army_ecc/`目录下，证书使用`fullchain.cer`，私钥使用`example.v6.army.key`。
 ### 5. 更新证书
 
-^5275f1
-
 创建脚本并设置自动化任务每周执行一次
 ```bash
 #!/bin/bash
@@ -235,7 +233,7 @@ export CF_Account_ID="填账户ID"
 # 申请证书
 /home/user/.acme.sh/acme.sh --config-home /user/acme/example --issue --dns dns_dynv6 -d 'example.com,*.example.com'
 ```
-后续的自动化设置跟上面dynv6[更新证书](#^5275f1)一致
+后续的自动化设置跟上面dynv6更新证书一致
 ### 2. 使用1Panel申请证书
 
 #### 创建Acme账户

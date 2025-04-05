@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "影音库搭建"
-subtitle: "影音库搭建"
-date: "2025-03-28 20:31"
+title: 影音库搭建
+subtitle: 影音库搭建
+date: 2025-03-28 20:31
 author: Kyon-H
 header-img: img/post-bg-2015.jpg
 tags:
