@@ -47,13 +47,13 @@ vim qbittorrent-enhanced-nox.service
 第三方UI：
 [VueTorrent/VueTorrent: The sleekest looking WEBUI for qBittorrent made with Vuejs! (github.com)](https://github.com/VueTorrent/VueTorrent)
 
-下载vuetorrent： [vuetorrent.zip](packages/vuetorrent.zip)
+下载vuetorrent
 
 ```shell
 #解压
 unzip vuetorrent.zip
 #移动vuetorrent文件夹到存放目录
-mv vuetorrent /home/load/Templates
+mv vuetorrent /home/user/Templates
 #设置文件夹权限
 chmod 2775 public/
 setfacl -m u:用户名:rwx public/
@@ -72,7 +72,7 @@ drwxrwsr-x+ 3 larsluph users 4.0K Jan 20 16:00 public
 
 ```shell
 #修改qBittorrent.conf文件
-cd /home/load/.config/qBittorrent
+cd /home/user/.config/qBittorrent
 vim qBittorrent.conf
 
 #WebUI\AlternativeUIEnabled 改为false
@@ -83,7 +83,7 @@ WebUI\RootFolder=
 #最后刷新或重启
 ```
 
-qbittorrent设置备用webui地址：`/home/load/Templates/vuetorrent/`
+qbittorrent设置备用webui地址：`/home/user/Templates/vuetorrent/`
 
 #### 高级
 
@@ -121,9 +121,7 @@ sudo apt-get install openjdk-21-jdk-headless -y
 java -version
 ```
 
-下载jar包：  [PeerBanHelper.jar](packages/PeerBanHelper_6.2.1.jar)
-
-使用命令来启动 PBH：
+下载jar包，使用命令来启动 PBH：
 
 ```shell
 java -jar -Xmx256M -XX:+UseG1GC -XX:+UseStringDeduplication -XX:+ShrinkHeapInSteps -jar PeerBanHelper.jar
@@ -150,7 +148,7 @@ After=multi-user.target
 ExecStart=/usr/bin/java -Xmx386M -XX:+UseG1GC -XX:+UseStringDeduplication -XX:+ShrinkHeapInSteps -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -Dconsole.encoding=UTF-8 -jar PeerBanHelper.jar nogui
 Type=simple
 # 设置PeerBanHelper.jar存放和工作目录
-WorkingDirectory=/home/load/bin/peerbanhelper
+WorkingDirectory=/home/user/bin/peerbanhelper
 
 [Install]
 WantedBy=multi-user.target
