@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ubuntu20.04 安装
-subtitle: Ubuntu20.04 Desktop Edition install
+subtitle: Ubuntu20.04 安装
 date: 2024-11-02 15:22
 author: Kyon-H
 header-img: img/post-bg-2015.jpg

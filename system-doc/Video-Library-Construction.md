@@ -9,7 +9,7 @@ tags:
 ---
 **以qBittorrent为中心，结合Jellyfin、AList、音流、弹弹Play实现自动化动漫库、音乐库。**
 
-[[qBittorrent 安装]]完成后，完善其他配置
+[[qBittorrent-Installation]]完成后，完善其他配置
 ## 一、Jellyfin访问配置
 
 创建新用户并设置访问范围和权限，创建完成后点击用户头像，进入详细配置页面。
