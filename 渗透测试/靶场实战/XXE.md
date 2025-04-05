@@ -1,3 +1,12 @@
+---
+layout: post
+title: XXE
+subtitle: XXE
+date: 2024‎-‎11‎-‎03 ‏‎20:03
+author: Kyon-H
+header-img: img/post-bg-2015.jpg
+tags:
+---
 # XXE payload
 
 1、**有回显—读服务器文件：**

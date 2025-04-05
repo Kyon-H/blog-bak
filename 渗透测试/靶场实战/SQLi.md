@@ -1,7 +1,13 @@
 ---
-dg-publish: true
-dg-home: true
+layout: post
+title: SQL注入
+subtitle: SQL注入
+date: ‎2024‎-‎11‎-‎30‎ ‏‎20:03
+author: Kyon-H
+header-img: img/post-bg-2015.jpg
+tags:
 ---
+
 
 # dvwa、pikachu之sql注入
 ## SQL 注入

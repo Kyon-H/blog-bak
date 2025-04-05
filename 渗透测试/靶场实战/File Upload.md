@@ -1,3 +1,13 @@
+---
+layout: post
+title: File Upload
+subtitle: File Upload
+date: ‎2024‎-‎11‎-0‎3‎ ‏‎20:03
+author: Kyon-H
+header-img: img/post-bg-2015.jpg
+tags:
+---
+
 # 文件上传漏洞
 ### LOW
 
